@@ -1,6 +1,6 @@
-# Equilibra Calculator 🚀
+# Compounding Calculator 🚀
 
-**Equilibra Calculator** is a high-performance, single-page web application designed to help you visualize the long-term impact of consistent savings and compound interest. 
+**Compounding Calculator** is a high-performance, single-page web application designed to help you visualize the long-term impact of consistent savings and compound interest. 
 
 Built with **zero dependencies** for maximum speed and simplicity, it features an interactive calculator and an animated real-time growth chart to help you plan your financial future.
 
