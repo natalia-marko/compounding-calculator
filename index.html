@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Compounding Explorer — Watch Your Money Grow</title>
-  <meta name="description" content="Visualise your future wealth with Compounding Explorer. An interactive simulator with Danish tax (Aktieskat) support and real-world growth models." />
+  <title>Equilibra Calculator — Watch Your Money Grow</title>
+  <meta name="description" content="Visualise your future wealth with Equilibra Calculator. An interactive simulator with Danish tax (Aktieskat) support and real-world growth models." />
   
   <!-- Manifest & Mobile -->
   <link rel="manifest" href="manifest.json" />
@@ -12,8 +12,8 @@
   <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3258/3258503.png" />
   
   <!-- Social Graphs (Open Graph / Twitter) -->
-  <meta property="og:title" content="Compounding Explorer" />
-  <meta property="og:description" content="Simulate how small savings grow through the magic of compounding." />
+  <meta property="og:title" content="Equilibra Calculator" />
+  <meta property="og:description" content="Simulate how small savings grow through the magic of compounding with Equilibra." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/3258/3258503.png" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -27,7 +27,7 @@
   <header class="hero" id="top">
     <div class="container">
       <div class="hero-badge">✨ Professional Wealth Simulation</div>
-      <h1>Compounding <span class="text-gradient">Explorer</span></h1>
+      <h1>Equilibra <span class="text-gradient">Calculator</span></h1>
       <p class="subtitle">
         Discover how small amounts, saved consistently, can transform your future through the magic of compound interest.
       </p>
@@ -225,9 +225,27 @@
   </section>
 
   <!-- ===== FOOTER ===== -->
-  <footer>
-    <div class="container">
-      <p>Built for awareness, not financial advice. Always do your own research. 💚</p>
+  <footer style="padding: var(--space-2xl) 0 var(--space-xl); border-top: 1px solid var(--border-glass); background: rgba(0,0,0,0.02);">
+    <div class="container" style="display: flex; flex-direction: column; align-items: center; gap: var(--space-lg);">
+      
+      <!-- Store Badges -->
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); margin-bottom: var(--space-sm);">
+        <a href="#" style="opacity: 0.9; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="Download on the App Store" style="height: 40px;">
+        </a>
+        <a href="#" style="opacity: 0.9; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" style="height: 40px;">
+        </a>
+      </div>
+
+      <div style="text-align: center;">
+        <p style="font-size: 0.85rem; color: var(--text-secondary); font-weight: 500;">
+          Designed & Developed by <a href="https://github.com/natalia-marko" target="_blank" style="color: var(--accent-blue); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s;">Natalia Marko</a>
+        </p>
+        <p style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--text-muted); max-width: 400px; margin-left: auto; margin-right: auto;">
+          Built for awareness, not financial advice. <br> &copy; 2024 Equilibra Calculator. All rights reserved.
+        </p>
+      </div>
     </div>
   </footer>
 

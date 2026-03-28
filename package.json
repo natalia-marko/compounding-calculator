@@ -1,7 +1,7 @@
 {
-  "name": "compounding-explorer",
+  "name": "equilibra-calculator",
   "version": "1.0.0",
-  "description": "Premium Compounding Calculator with Danish Tax Support",
+  "description": "Premium Equilibra Compounding Calculator with Danish Tax Support",
   "main": "index.html",
   "scripts": {
     "start": "python3 -m http.server 8080"

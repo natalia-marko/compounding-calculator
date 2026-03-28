@@ -1,7 +1,7 @@
 {
-  "name": "compounding-explorer",
-  "short_name": "Grow",
-  "description": "Visualise and simulate the power of compound interest.",
+  "name": "equilibra-calculator",
+  "short_name": "Equilibra",
+  "description": "Visualise and simulate the power of compound interest with Equilibra.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
