@@ -1,0 +1,17 @@
+{
+  "name": "compounding-explorer",
+  "short_name": "Grow",
+  "description": "Visualise and simulate the power of compound interest.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#229ed9",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3258/3258503.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

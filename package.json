@@ -1,0 +1,19 @@
+{
+  "name": "compounding-explorer",
+  "version": "1.0.0",
+  "description": "Premium Compounding Calculator with Danish Tax Support",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8080"
+  },
+  "keywords": [
+    "finance",
+    "compounding",
+    "calculator",
+    "savings",
+    "danish",
+    "tax"
+  ],
+  "author": "Compounding Explorer Team",
+  "license": "MIT"
+}
